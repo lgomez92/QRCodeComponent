@@ -1,7 +1,52 @@
+body {
+  background-color: rgb(213, 225, 239);
 
+}
 
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.qrCont {
+  background-color: rgb(255, 255, 255);
+  height: 499px;
+  width: 320px;
+  border-radius: 20px;
+}
 
+.qrCont img {
+  height: 288px;
+  width: 288px;
+  padding-top: 16px;
+  padding-left: 16px;
+  border-radius: 10px;
+}
+
+.text1 {
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: "Outfit";
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 120%;
+  margin-top: 24px;
+  color: rgb(31, 49, 79);
+}
+
+.text2 {
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: "Outfit";
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: rgb(104, 119, 141);
+}
 
 
 .attribution { 
